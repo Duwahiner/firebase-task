@@ -1,0 +1,39 @@
+{
+  "name": "deehk",
+  "version": "1.0.0",
+  "description": "app para programar tareas del dia a dia.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "serve": "next"
+  },
+  "keywords": [
+    "app",
+    "programar",
+    "tareas",
+    "dia",
+    "deehk"
+  ],
+  "author": "Duwhiner moreno cuesta",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "body-parser": "^1.19.0",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.9.2",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-svg": "^11.0.9",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
